@@ -7,6 +7,7 @@ import com.cal.model.UserProfile;
 
 public class UserService implements IUserService {
 
+	
 	@Autowired
 	IUserProfileDAO userDAO;
 
