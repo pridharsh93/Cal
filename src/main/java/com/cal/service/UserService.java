@@ -10,6 +10,7 @@ public class UserService implements IUserService {
 	
 	@Autowired
 	IUserProfileDAO userDAO;
+	
 
 	@Override
 	public UserProfile getUserByID(int articleId) {
